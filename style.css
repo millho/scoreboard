@@ -1,0 +1,30 @@
+body {
+    font-family: 'Bricolage Grotesque', sans-serif;
+    color: aquamarine;
+}
+
+p,
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+.scorecard {
+    background-color: aquamarine;
+    color: black;
+    min-height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+button {
+    background-color: aquamarine;
+    color: black;
+    padding: 1em;
+    border-radius: 10px;
+    min-width: 20vh;
+}

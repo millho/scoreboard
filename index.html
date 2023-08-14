@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="//cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&family=Poppins&family=Roboto&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>scoreboard</title>
+</head>
+
+<body class="bg-dark">
+
+    <!-- SECTION logo and title -->
+    <header class="container-fluid p-3">
+        <div class="col-12">
+            <h4 class="text-center"><i class="mdi mdi-kubernetes"></i> Scoreboard</h4>
+        </div>
+    </header>
+
+    <main class="container-fluid p-3">
+        <div class="row p-3">
+
+            <!-- SECTION home team -->
+            <div class="col-6">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="text-center">HOME</h1>
+                    </div>
+                    <div class="col-12">
+                        <div class="scorecard">
+                            <h1 id="homeScore" class="text-center">0</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SECTION away team -->
+            <div class="col-6">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="text-center">AWAY</h1>
+                    </div>
+                    <div class="col-12">
+                        <div class="scorecard">
+                            <h1 id="awayScore" class="text-center">0</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SECTION 1 point buttons -->
+        <div class="row p-3">
+            <div class="col-6 text-center">
+                <button>
+                    <h1>
+                        +1
+                    </h1>
+                </button>
+            </div>
+            <div class="col-6 text-center">
+                <button>
+                    <h1>
+                        +1
+                    </h1>
+                </button>
+            </div>
+        </div>
+
+        <!-- SECTION 3 point buttons -->
+        <div class="row p-3">
+            <div class="col-6 text-center">
+                <button>
+                    <h1>
+                        +3
+                    </h1>
+                </button>
+            </div>
+            <div class="col-6 text-center">
+                <button>
+                    <h1>
+                        +3
+                    </h1>
+                </button>
+            </div>
+        </div>
+
+        <!-- SECTION start over button -->
+        <div class="row p-3">
+            <div class="col-12 text-center">
+                <button>
+                    <h1>
+                        <i class="mdi mdi-restart"></i> start over
+                    </h1>
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
